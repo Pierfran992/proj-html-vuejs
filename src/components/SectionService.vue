@@ -52,7 +52,33 @@ export default {
             </div>
             <!-- container delle descrizioni dei servizi -->
             <div class="ctn_description_service">
-
+                <div class="description">
+                    <span>TOGHETER WE CAN CREATE</span>
+                    <h2>Services We <span>Can Provide </span>For My Clients.</h2>
+                    <!-- lista dei servizi -->
+                    <ul>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="check" />
+                            Select & customize courses to your preferences
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="check" />
+                            Change the tutor and make arrangements
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="check" />
+                            Participate in events to join others
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-solid fa-check" class="check" />
+                            Get the desired certificate delivered at house
+                        </li>
+                    </ul>
+                    <!-- bottone per la prova gratuita -->
+                    <div class="button">
+                        Get started for free
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -124,5 +150,55 @@ export default {
 .translate {
     position: relative;
     bottom: -50px;
+}
+
+.ctn_description_service {
+    width: 50%;
+    padding: 50px;
+
+    span {
+        color: $fontThirdCOlor;
+    }
+
+    h2 {
+        color: $fontPrimaryColor;
+        font-size: 50px;
+        margin-top: 20px;
+
+        span {
+            color: $fontSecondaryColor;
+            font-weight: 300;
+        }
+    }
+
+    ul {
+        margin-top: 50px;
+
+        li {
+            color: $fontThirdCOlor;
+            list-style: none;
+            margin-bottom: 15px;
+
+            .check {
+                color: $fontSecondaryColor;
+            }
+        }
+    }
+
+    .button {
+        color: $secondColor;
+        background-color: $thirdColor;
+        width: fit-content;
+        margin-top: 30px;
+        padding: 15px 35px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $firstColor;
+        }
+    }
 }
 </style>

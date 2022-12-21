@@ -78,7 +78,6 @@ section {
         margin: 0 auto;
         padding: 10px 30px;
         border-radius: 5px;
-
     }
 }
 
