@@ -17,11 +17,17 @@ import { faRulerCombined } from '@fortawesome/free-solid-svg-icons'
 import { faBook } from '@fortawesome/free-solid-svg-icons'
 import { faLifeRing } from '@fortawesome/free-solid-svg-icons'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faFileLines } from '@fortawesome/free-regular-svg-icons'
+import { faUser } from '@fortawesome/free-regular-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+
+
 
 
 
 /* add icons to the library */
-library.add(faUserSecret, faAngleDown, faCartShopping, faCircleUser, faMagnifyingGlass, faRulerCombined, faBook, faLifeRing, faCheck);
+library.add(faUserSecret, faAngleDown, faCartShopping, faCircleUser, faMagnifyingGlass, faRulerCombined, faBook, faLifeRing, faCheck, faFileLines, faUser, faArrowRight);
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

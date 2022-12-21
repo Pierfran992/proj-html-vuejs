@@ -21,6 +21,11 @@
     flex-direction: column;
 }
 
+@mixin start() {
+    display: flex;
+    justify-content: start;
+}
+
 // centralizzate le proprietà dei bottoni
 @mixin button() {
     color: $secondColor;

@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import SectionInfo from './components/SectionInfo.vue';
 import SectionService from './components/SectionService.vue';
+import SectionCourses from './components/SectionCourses.vue';
 
 
 
@@ -13,6 +14,7 @@ export default {
         Jumbotron,
         SectionInfo,
         SectionService,
+        SectionCourses,
     }
 }
 </script>
@@ -27,6 +29,7 @@ export default {
     <main>
         <SectionInfo />
         <SectionService />
+        <SectionCourses />
     </main>
 </template>
 
