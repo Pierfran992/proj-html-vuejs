@@ -12,7 +12,22 @@ export default {
             <!-- card principale della sezione -->
             <div class="card">
                 <div class="slot_img">
-
+                    <img src="../assets/images/testimonial-avata-02.jpg" alt="testimonial_avatar_01">
+                </div>
+                <div class="slot_text">
+                    <blockquote>
+                        <p>
+                            I am free to learn at my own pace, follow my own schedule and choose the subject i like.
+                            Great study portal for people like me.
+                        </p>
+                        <cite>
+                            MINA HOLLAGE
+                        </cite>
+                        <br>
+                        <div>
+                            /Freelancer
+                        </div>
+                    </blockquote>
                 </div>
             </div>
         </div>
@@ -38,6 +53,43 @@ section {
         span {
             color: $fontSecondaryColor;
             font-weight: 300;
+        }
+    }
+}
+
+.card {
+    @include start();
+    align-items: center;
+    gap: 50px;
+
+    .slot_img {
+        width: 250px;
+        height: 250px;
+
+        img {
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    .slot_text {
+        width: 60%;
+        text-align: start;
+
+        p {
+            color: $fontPrimaryColor;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        cite {
+            font-weight: 500;
+        }
+
+        div {
+            color: $fivecolor;
+            font-size: 16px;
+            margin-top: 10px;
         }
     }
 }
