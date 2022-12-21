@@ -1,0 +1,6 @@
+// creo una mixin generale per centrare gli elementi in flex
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

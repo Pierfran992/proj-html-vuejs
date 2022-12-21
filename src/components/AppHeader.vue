@@ -7,7 +7,9 @@ export default {
 <template>
     <section>
         <div class="container">
-
+            <div class="slot_logo">
+                <img src="../assets/" alt="">
+            </div>
         </div>
     </section>
 </template>
@@ -20,5 +22,13 @@ section {
     background-color: $firstColor;
     color: $secondColor;
     height: 80px;
+}
+
+.container {
+    @include center();
+
+    .slot_logo {
+        width: 200px;
+    }
 }
 </style>
