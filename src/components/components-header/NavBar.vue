@@ -48,6 +48,7 @@ div {
 
             a {
                 color: $secondColor;
+                font-size: 14px;
                 font-weight: 600;
                 text-decoration: none;
             }
@@ -65,7 +66,7 @@ div {
     }
 
     .icon_user {
-        font-size: 25px;
+        font-size: 20px;
         margin: 0 30px;
     }
 }
