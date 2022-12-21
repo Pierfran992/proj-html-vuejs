@@ -1,10 +1,12 @@
 <script>
 import NavBar from './components-header/NavBar.vue';
+import SearchBar from './components-header/SearchBar.vue';
 
 export default {
     name: "AppHeader",
     components: {
         NavBar,
+        SearchBar,
     }
 }
 </script>
@@ -15,7 +17,10 @@ export default {
             <div class="slot_logo">
                 <img src="../assets/images/light-logo.png" alt="logo_maxcoach">
             </div>
-            <NavBar />
+            <div class="slot_menu">
+                <NavBar />
+                <SearchBar />
+            </div>
         </div>
     </section>
 </template>
@@ -36,6 +41,10 @@ section {
 
     .slot_logo {
         width: 150px;
+    }
+
+    .slot_menu {
+        @include center();
     }
 }
 </style>
