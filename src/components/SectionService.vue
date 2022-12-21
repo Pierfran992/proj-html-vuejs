@@ -107,6 +107,7 @@ export default {
         margin-bottom: 20px;
         padding: 0 20px;
         border-radius: 5px;
+        box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.1), -3px -3px 8px 1px rgba(0, 0, 0, 0.1);
         @include column();
         justify-content: end;
 
