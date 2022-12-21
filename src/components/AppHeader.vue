@@ -1,6 +1,11 @@
 <script>
+import NavBar from './components-header/NavBar.vue';
+
 export default {
     name: "AppHeader",
+    components: {
+        NavBar,
+    }
 }
 </script>
 
@@ -8,8 +13,9 @@ export default {
     <section>
         <div class="container">
             <div class="slot_logo">
-                <img src="../assets/" alt="">
+                <img src="../assets/images/light-logo.png" alt="logo_maxcoach">
             </div>
+            <NavBar />
         </div>
     </section>
 </template>
@@ -25,10 +31,11 @@ section {
 }
 
 .container {
-    @include center();
+    @include between();
+    height: 100%;
 
     .slot_logo {
-        width: 200px;
+        width: 150px;
     }
 }
 </style>
