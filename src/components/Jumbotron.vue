@@ -65,19 +65,15 @@ section {
         color: $fourthColor;
     }
 
-    p,
-    .button {
+    p {
         font-weight: 500;
         font-size: 14px;
         cursor: pointer;
     }
 
     .button {
-        background-color: $thirdColor;
-        width: fit-content;
+        @include button();
         margin: 0 auto;
-        padding: 10px 30px;
-        border-radius: 5px;
     }
 }
 

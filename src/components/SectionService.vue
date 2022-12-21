@@ -186,15 +186,7 @@ export default {
     }
 
     .button {
-        color: $secondColor;
-        background-color: $thirdColor;
-        width: fit-content;
-        margin-top: 30px;
-        padding: 15px 35px;
-        border-radius: 5px;
-        font-weight: 500;
-        font-size: 14px;
-        cursor: pointer;
+        @include button();
 
         &:hover {
             background-color: $firstColor;
