@@ -233,6 +233,6 @@ section {
 
 .button {
     @include button();
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 </style>
