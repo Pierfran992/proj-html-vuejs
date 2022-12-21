@@ -14,6 +14,7 @@ export default {
                 Get started for free
             </div>
         </div>
+
         <!-- container per le immagini del jumbotron -->
         <div class="ctn_img_jumbo">
             <div class="slot_img_jumbo left">
@@ -26,6 +27,13 @@ export default {
                 <img src="../assets/images/home-6-hero-right-person-195x300.png" alt="home_hero_right">
             </div>
         </div>
+        <!-- creo il menu delle icone shortcut a destra del jumbotron -->
+        <div class="slot_shortcut_icon">
+            <font-awesome-icon icon="fa-solid fa-ruler-combined" />
+            <font-awesome-icon icon="fa-solid fa-life-ring" />
+            <font-awesome-icon icon="fa-solid fa-book" />
+            <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+        </div>
     </section>
 </template>
 
@@ -36,7 +44,8 @@ export default {
 section {
     background-color: $firstColor;
     width: 100%;
-    height: 500px;
+    height: 535px;
+    position: relative;
 }
 
 .container {
@@ -83,6 +92,7 @@ section {
     align-items: end;
     position: relative;
     left: -80px;
+    bottom: -30px;
 
 
     .left {
@@ -106,5 +116,17 @@ section {
         position: relative;
         bottom: -150px;
     }
+}
+
+.slot_shortcut_icon {
+    background-color: $secondColor;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 15%;
+    @include column();
+    gap: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 </style>

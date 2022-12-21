@@ -13,10 +13,14 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faCircleUser } from '@fortawesome/free-regular-svg-icons'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faRulerCombined } from '@fortawesome/free-solid-svg-icons'
+import { faBook } from '@fortawesome/free-solid-svg-icons'
+import { faLifeRing } from '@fortawesome/free-solid-svg-icons'
+
 
 
 /* add icons to the library */
-library.add(faUserSecret, faAngleDown, faCartShopping, faCircleUser, faMagnifyingGlass);
+library.add(faUserSecret, faAngleDown, faCartShopping, faCircleUser, faMagnifyingGlass, faRulerCombined, faBook, faLifeRing);
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

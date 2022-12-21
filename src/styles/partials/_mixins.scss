@@ -11,3 +11,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+// creo una mixin per mettere gli oggetti in display flex column
+@mixin column() {
+    display: flex;
+    flex-direction: column;
+}
