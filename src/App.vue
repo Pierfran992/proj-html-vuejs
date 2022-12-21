@@ -1,19 +1,29 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import Jumbotron from './components/Jumbotron.vue';
+import SectionInfo from './components/SectionInfo.vue';
+
 
 export default {
     name: "App",
     components: {
         AppHeader,
         Jumbotron,
+        SectionInfo,
     }
 }
 </script>
 
 <template>
-    <AppHeader />
-    <Jumbotron />
+    <!-- componenti header -->
+    <header>
+        <AppHeader />
+        <Jumbotron />
+    </header>
+    <!-- componenti main -->
+    <main>
+        <SectionInfo />
+    </main>
 </template>
 
 <style lang="scss">
