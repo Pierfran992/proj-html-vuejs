@@ -22,6 +22,7 @@ export default {
             </div>
             <div class="slot_img_jumbo center">
                 <img src="../assets/images/home-6-hero-poster-final.jpg" alt="home_hero_poster">
+                <img src="../assets/images/icon-youtube-play.png" alt="icon_youtube_play" class="icon_youtube">
             </div>
             <div class="slot_img_jumbo right">
                 <img src="../assets/images/home-6-hero-right-person-195x300.png" alt="home_hero_right">
@@ -63,9 +64,6 @@ section {
 
     p {
         color: $fourthColor;
-    }
-
-    p {
         font-weight: 500;
         font-size: 14px;
         cursor: pointer;
@@ -74,6 +72,11 @@ section {
     .button {
         @include button();
         margin: 0 auto;
+
+        &:hover {
+            color: $fontSecondaryColor;
+            background-color: $secondColor;
+        }
     }
 }
 
@@ -87,7 +90,7 @@ section {
     align-items: end;
     position: relative;
     left: -80px;
-    bottom: -30px;
+    bottom: -25px;
 
 
     .left {
@@ -105,7 +108,19 @@ section {
         border-radius: 10px;
         box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.24), -3px -3px 8px 1px rgba(0, 0, 0, 0.24);
         z-index: 10;
+        position: relative;
+
+        .icon_youtube {
+            width: 80px;
+            height: 60px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
     }
+
+
 
     .right {
         position: relative;
