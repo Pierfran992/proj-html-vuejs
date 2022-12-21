@@ -6,7 +6,26 @@ export default {
 
 <template>
     <section>
-
+        <!-- conteiner del titolo della pagina, descrizione e bottone per la prova gratuita -->
+        <div class="container">
+            <h1>Learn At Your Own Pace!</h1>
+            <p>Get teamed up with people of the same will.</p>
+            <div class="button">
+                Get started for free
+            </div>
+        </div>
+        <!-- container per le immagini del jumbotron -->
+        <div class="ctn_img_jumbo">
+            <div class="slot_img_jumbo left">
+                <img src="../assets/images/home-6-hero-left-person.png" alt="home_hero_left">
+            </div>
+            <div class="slot_img_jumbo center">
+                <img src="../assets/images/home-6-hero-poster-final.jpg" alt="home_hero_poster">
+            </div>
+            <div class="slot_img_jumbo right">
+                <img src="../assets/images/home-6-hero-right-person-195x300.png" alt="home_hero_right">
+            </div>
+        </div>
     </section>
 </template>
 
@@ -17,6 +36,75 @@ export default {
 section {
     background-color: $firstColor;
     width: 100%;
+    height: 500px;
+}
+
+.container {
+    color: $secondColor;
+    text-align: center;
+    padding: 30px 0;
+
+    * {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        color: $fourthColor;
+    }
+
+    p,
+    .button {
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .button {
+        background-color: $thirdColor;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px 30px;
+        border-radius: 5px;
+
+    }
+}
+
+.ctn_img_jumbo {
     height: 400px;
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    @include center();
+    overflow-y: hidden;
+    align-items: end;
+    position: relative;
+    left: -80px;
+
+
+    .left {
+        height: 100%;
+        position: relative;
+        right: -45px;
+
+    }
+
+    .center {
+        height: 100%;
+        width: 60%;
+        background-color: $secondColor;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.24), -3px -3px 8px 1px rgba(0, 0, 0, 0.24);
+        z-index: 10;
+    }
+
+    .right {
+        position: relative;
+        bottom: -150px;
+    }
 }
 </style>
