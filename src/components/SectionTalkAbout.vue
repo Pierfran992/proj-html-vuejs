@@ -9,6 +9,7 @@ export default {
         <div class="container">
             <!-- titolo della sezione -->
             <h1>Why People Talk About <span>MaxCoach</span>?</h1>
+
             <!-- card principale della sezione -->
             <div class="card">
                 <div class="slot_img">
@@ -28,6 +29,28 @@ export default {
                             /Freelancer
                         </div>
                     </blockquote>
+                </div>
+            </div>
+
+            <!-- container dei loghi dei client -->
+            <div class="ctn_client">
+                <div class="slot_logo">
+                    <img src="../assets/images/client-logo-colored-01.png" alt="client_1">
+                </div>
+                <div class="slot_logo">
+                    <img src="../assets/images/client-logo-colored-02.png" alt="client_1">
+                </div>
+                <div class="slot_logo">
+                    <img src="../assets/images/client-logo-colored-03.png" alt="client_1">
+                </div>
+                <div class="slot_logo">
+                    <img src="../assets/images/client-logo-colored-04.png" alt="client_1">
+                </div>
+                <div class="slot_logo">
+                    <img src="../assets/images/client-logo-colored-05.png" alt="client_1">
+                </div>
+                <div class="slot_logo">
+                    <img src="../assets/images/client-logo-colored-06.png" alt="client_1">
                 </div>
             </div>
         </div>
@@ -92,5 +115,10 @@ section {
             margin-top: 10px;
         }
     }
+}
+
+.ctn_client {
+    margin-top: 70px;
+    @include between();
 }
 </style>
