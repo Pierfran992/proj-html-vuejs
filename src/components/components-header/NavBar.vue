@@ -13,6 +13,7 @@ export default {
 <template>
     <div>
         <ul class="nav_bar">
+            <!-- stampo attraverso un v-for i dati presenti nello store -->
             <li v-for="(link, index) in store.navBarLink">
                 <a :href="link.url">{{ link.text }}</a>
                 <span>
@@ -20,9 +21,11 @@ export default {
                 </span>
             </li>
         </ul>
+        <!-- slot dell'icona dello shop -->
         <div class="icon_shop">
             <font-awesome-icon icon="fa-solid fa-cart-shopping" />
         </div>
+        <!-- slot dell'icona dell'user -->
         <div class="icon_user">
             <font-awesome-icon icon="fa-regular fa-circle-user" />
         </div>

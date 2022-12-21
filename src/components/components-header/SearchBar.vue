@@ -6,6 +6,7 @@ export default {
 </script>
 
 <template>
+    <!-- creato l'imput search -->
     <div>
         <input type="text" placeholder="Search...">
         <div class="icon_search">
