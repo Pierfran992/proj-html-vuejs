@@ -184,6 +184,11 @@ section {
         @include start();
         align-items: center;
         gap: 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $secondColor;
+        }
 
         .img_slot {
             width: 150px;
@@ -234,5 +239,9 @@ section {
 .button {
     @include button();
     margin: 50px auto 0 auto;
+
+    &:hover {
+        background-color: $firstColor;
+    }
 }
 </style>
