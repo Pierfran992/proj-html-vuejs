@@ -22,6 +22,8 @@ import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faCalendar } from '@fortawesome/free-regular-svg-icons'
 import { faEye } from '@fortawesome/free-regular-svg-icons'
+import { faFlag } from '@fortawesome/free-regular-svg-icons'
+
 
 
 
@@ -30,7 +32,7 @@ import { faEye } from '@fortawesome/free-regular-svg-icons'
 
 
 /* add icons to the library */
-library.add(faUserSecret, faAngleDown, faCartShopping, faCircleUser, faMagnifyingGlass, faRulerCombined, faBook, faLifeRing, faCheck, faFileLines, faUser, faArrowRight, faCalendar, faEye);
+library.add(faUserSecret, faAngleDown, faCartShopping, faCircleUser, faMagnifyingGlass, faRulerCombined, faBook, faLifeRing, faCheck, faFileLines, faUser, faArrowRight, faCalendar, faEye, faFlag);
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
