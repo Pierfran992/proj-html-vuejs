@@ -54,7 +54,7 @@ export default {
             <div class="ctn_description_service">
                 <div class="description">
                     <span>TOGHETER WE CAN CREATE</span>
-                    <h2>Services We <span>Can Provide </span>For My Clients.</h2>
+                    <h3>Services We <span>Can Provide </span>For My Clients.</h3>
                     <!-- lista dei servizi -->
                     <ul>
                         <li>
@@ -161,7 +161,7 @@ export default {
         color: $fontThirdCOlor;
     }
 
-    h2 {
+    h3 {
         color: $fontPrimaryColor;
         font-size: 50px;
         margin-top: 20px;

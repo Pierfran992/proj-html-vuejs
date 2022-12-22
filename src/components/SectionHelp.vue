@@ -11,7 +11,7 @@ export default {
                 WANNA TRANSFORM YOUR LIFE?
             </span>
             <!-- titolo della sezione -->
-            <h1>Glad to <span>Help You</span> Learn</h1>
+            <h3>Glad to <span>Help You</span> Learn</h3>
 
             <!-- container delle card -->
             <div class="ctn_card">
@@ -100,7 +100,7 @@ section {
         font-size: 14px;
     }
 
-    h1 {
+    h3 {
         color: $fontPrimaryColor;
         font-size: 35px;
         margin-top: 10px;

@@ -11,7 +11,7 @@ export default {
                 ENJOY READING ON MAXCOACH
             </span>
             <!-- titolo della sezione -->
-            <h1>Latest on <span>Our Blogs</span></h1>
+            <h3>Latest on <span>Our Blogs</span></h3>
 
             <!-- container card -->
             <div class="ctn_card">
@@ -102,7 +102,7 @@ section {
         font-size: 14px;
     }
 
-    h1 {
+    h3 {
         color: $fontPrimaryColor;
         font-size: 35px;
         margin-top: 10px;

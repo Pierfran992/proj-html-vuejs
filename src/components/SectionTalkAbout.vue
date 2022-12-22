@@ -8,7 +8,7 @@ export default {
     <section>
         <div class="container">
             <!-- titolo della sezione -->
-            <h1>Why People Talk About <span>MaxCoach</span>?</h1>
+            <h3>Why People Talk About <span>MaxCoach</span>?</h3>
 
             <!-- card principale della sezione -->
             <div class="card">
@@ -68,7 +68,7 @@ section {
 .container {
     text-align: center;
 
-    h1 {
+    h3 {
         color: $fontPrimaryColor;
         font-size: 40px;
         margin-bottom: 50px;
