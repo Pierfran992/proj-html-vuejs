@@ -15,7 +15,7 @@ export default {
     <section>
         <div class="container">
             <!-- inserisco il logo della pagina -->
-            <div class="slot_logo">
+            <div id="ancorElement" class="slot_logo">
                 <img src="../assets/images/light-logo.png" alt="logo_maxcoach">
             </div>
             <!-- richiamo la navbar e la searchbar -->

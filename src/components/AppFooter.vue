@@ -63,6 +63,13 @@ export default {
             <font-awesome-icon icon="fa-regular fa-copyright" />
             <span> 2020 Maxcoach. All Rights Reserved</span>
         </div>
+
+        <!-- bottone per tornare a inizio pagina -->
+        <div class="ancor">
+            <a href="#ancorElement">
+                <font-awesome-icon icon="fa-solid fa-arrow-up" />
+            </a>
+        </div>
     </section>
 </template>
 
@@ -73,7 +80,7 @@ export default {
 section {
     background-color: $sectionThirdColor;
     padding: 50px 0;
-
+    position: relative;
 }
 
 .container {
@@ -133,5 +140,24 @@ section {
     font-size: 12px;
     text-align: center;
     margin-top: 50px;
+}
+
+.ancor {
+    background-color: $fontSecondaryColor;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+
+    a {
+        color: $secondColor;
+        text-decoration: none;
+    }
 }
 </style>
