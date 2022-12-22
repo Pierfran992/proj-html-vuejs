@@ -75,6 +75,10 @@ export default {
                 </div>
             </div>
 
+            <!-- container immagine section -->
+            <div class="ctn_img">
+                <img src="../assets/images/home-6-services-image-1024x411.png" alt="home_6_services">
+            </div>
         </div>
     </section>
 </template>
@@ -108,6 +112,7 @@ section {
     }
 }
 
+// regole card
 .ctn_card {
     margin-top: 50px;
     @include between();
@@ -137,5 +142,12 @@ section {
             }
         }
     }
+}
+
+// regole immagine
+.ctn_img {
+    width: 100%;
+    position: relative;
+    bottom: -135px;
 }
 </style>
