@@ -30,6 +30,49 @@ export default {
                         </p>
                     </div>
                 </div>
+
+                <div class="card">
+                    <!-- icona della card -->
+                    <div class="slot_icon">
+                        <font-awesome-icon icon="fa-solid fa-gear" />
+                    </div>
+                    <!-- testo della card -->
+                    <div class="slot_text">
+                        <h5>Web Development</h5>
+                        <p>
+                            Learn to start building a webpage from scratch. You decide your own pace, course and speed.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- icona della card -->
+                    <div class="slot_icon">
+                        <font-awesome-icon icon="fa-solid fa-life-ring" />
+                    </div>
+                    <!-- testo della card -->
+                    <div class="slot_text">
+                        <h5>System Administration</h5>
+                        <p>
+                            Learnes are encouraged to study the mechanism and structure of system administration.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- icona della card -->
+                    <div class="slot_icon">
+                        <font-awesome-icon icon="fa-solid fa-desktop" />
+                    </div>
+                    <!-- testo della card -->
+                    <div class="slot_text">
+                        <h5>Graphic Design</h5>
+                        <p>
+                            Have a passion for graphics and arts? Show your talents with confidence and
+                            self-assertiveness.
+                        </p>
+                    </div>
+                </div>
             </div>
 
         </div>
