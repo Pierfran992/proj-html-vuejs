@@ -5,9 +5,7 @@ import SectionInfo from './components/SectionInfo.vue';
 import SectionService from './components/SectionService.vue';
 import SectionCourses from './components/SectionCourses.vue';
 import SectionTalkAbout from './components/SectionTalkAbout.vue';
-
-
-
+import SectionBlog from './components/SectionBlog.vue';
 
 export default {
     name: "App",
@@ -18,6 +16,7 @@ export default {
         SectionService,
         SectionCourses,
         SectionTalkAbout,
+        SectionBlog,
     }
 }
 </script>
@@ -34,6 +33,7 @@ export default {
         <SectionService />
         <SectionCourses />
         <SectionTalkAbout />
+        <SectionBlog />
     </main>
 </template>
 
