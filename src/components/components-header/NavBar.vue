@@ -24,6 +24,9 @@ export default {
         <!-- slot dell'icona dello shop -->
         <div class="icon_shop">
             <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+            <div class="count_shop-element">
+                <span>0</span>
+            </div>
         </div>
         <!-- slot dell'icona dell'user -->
         <div class="icon_user">
@@ -66,6 +69,20 @@ div {
     .icon_shop {
         font-size: 20px;
         margin-left: 5px;
+        position: relative;
+
+        .count_shop-element {
+            background-color: $secondColor;
+            color: $fontPrimaryColor;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            font-size: 10px;
+            border-radius: 50%;
+            position: absolute;
+            top: -8px;
+            right: -8px;
+        }
     }
 
     .icon_user {
